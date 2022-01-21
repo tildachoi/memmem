@@ -29,7 +29,6 @@ Notes       :
 `include "uart_ctrl_defines.svh"
 class uart_ctrl_env extends uvm_env; 
   
-  // Component configuration classes
   uart_ctrl_config cfg;
   // These are pointers to config classes above
   uart_config uart_cfg;
